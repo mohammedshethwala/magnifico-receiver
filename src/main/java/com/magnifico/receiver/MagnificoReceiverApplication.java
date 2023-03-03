@@ -15,7 +15,7 @@ public class MagnificoReceiverApplication {
 
 	@RequestMapping("/")
 	String basePath() {
-		return "Welcome to Magnifico Receiver";
+		return "Welcome to Magnifico Receiver with staging";
 	}
 
 }
