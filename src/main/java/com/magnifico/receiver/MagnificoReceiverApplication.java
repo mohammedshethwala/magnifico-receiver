@@ -14,12 +14,8 @@ public class MagnificoReceiverApplication {
 	}
 
 	@RequestMapping("/")
-	String sayHello() {
-		return "Hello World!";
+	String basePath() {
+		return "Welcome to Magnifico Receiver";
 	}
 
-	@RequestMapping("/trade")
-	String getTrade() {
-		return "Trade 1234";
-	}
 }
